@@ -1,7 +1,14 @@
-import Layout from '@components/layout/Layout';
+import { Route, Routes } from 'react-router-dom';
 
-const Root = () => {
-  return <Layout />;
-};
+import Layout from '@/components/layout/DefaultLayout';
+import HomePage from '@/pages/HomePage/HomePage';
 
-export default Root;
+export default function Root() {
+  return (
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<HomePage />} />
+      </Route>
+    </Routes>
+  );
+}

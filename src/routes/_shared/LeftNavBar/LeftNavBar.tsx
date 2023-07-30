@@ -1,5 +1,3 @@
-const LeftNavBar = () => {
+export default function LeftNavBar() {
   return <div>LeftNavBar</div>;
-};
-
-export default LeftNavBar;
+}

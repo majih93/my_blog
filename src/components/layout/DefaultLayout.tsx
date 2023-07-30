@@ -4,7 +4,7 @@ import Header from '@/routes/_shared/Header/Header';
 import LNB from '@/routes/_shared/LeftNavBar/LeftNavBar';
 import Footer from '@/routes/_shared/Footer/Footer';
 
-const Layout = () => {
+export default function DefaultLayout() {
   return (
     <>
       <Header />
@@ -15,6 +15,4 @@ const Layout = () => {
       <Footer />
     </>
   );
-};
-
-export default Layout;
+}
