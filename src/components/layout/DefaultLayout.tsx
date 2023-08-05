@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router-dom';
 
-import Header from '@/routes/_shared/Header/Header';
-import LNB from '@/routes/_shared/LeftNavBar/LeftNavBar';
-import Footer from '@/routes/_shared/Footer/Footer';
+import Header from '@/routes/shared/Header/Header';
+import LNB from '@/routes/shared/LeftNavBar/LeftNavBar';
+import Footer from '@/routes/shared/Footer/Footer';
 
 export default function DefaultLayout() {
   return (
