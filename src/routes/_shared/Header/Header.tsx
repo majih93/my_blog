@@ -1,3 +1,3 @@
 export default function Header() {
-  return <div>Header</div>;
+  return <h3>Header - should show the name of the current page</h3>;
 }
