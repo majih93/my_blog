@@ -3,9 +3,11 @@ import GreetText from '@/routes/shared/LeftNavBar/components/GreetText';
 import NavigationMenu from '@/routes/shared/LeftNavBar/components/NavigationMenu';
 import NavFooter from '@/routes/shared/LeftNavBar/components/NavFooter';
 
+import styles from './leftNavBar.module.scss';
+
 export default function LeftNavBar() {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <ProfileImg />
       <GreetText />
       <NavigationMenu />
