@@ -1,3 +1,5 @@
+import styles from './profileImg.module.scss';
+
 export default function ProfileImg() {
-  return <div>ProfileImg</div>;
+  return <div className={styles.container}>ProfileImg</div>;
 }
