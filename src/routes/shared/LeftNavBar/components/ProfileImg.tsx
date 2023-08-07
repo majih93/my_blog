@@ -1,5 +1,7 @@
 import styles from './profileImg.module.scss';
 
+import Img_Code from '@assets/images/img_code.jpg';
+
 export default function ProfileImg() {
-  return <div className={styles.container}>ProfileImg</div>;
+  return <img src={Img_Code} className={styles.container} />;
 }
