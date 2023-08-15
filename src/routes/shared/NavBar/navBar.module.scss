@@ -1,0 +1,13 @@
+@use '@styles/base/variables/layout-variables' as layoutVar;
+
+.nav {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
