@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 import styles from './navigationMenu.module.scss';
 
+// 데이터와 UI 분리의 일환으로, NavBar 에 표시될 요소들에 대한 데이터를 담은 배열 따로 생성
 const navigationLinks = [
   { url: '/', title: 'Home' },
   { url: '/categories', title: 'Categories' },
@@ -12,7 +13,7 @@ export default function NavigationMenu() {
   return (
     <ul className={styles.navList}>
       {navigationLinks.map(({ url, title }) => (
-        <NavItem url={url} linkTitle={title} />
+        <NavItem key={title} url={url} linkTitle={title} />
       ))}
     </ul>
   );
